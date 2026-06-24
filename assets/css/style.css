@@ -248,7 +248,179 @@ body {
   text-underline-offset: auto;
   text-underline-position: from-font;
 }
-
+/* Section-1 */
 .hero {
-  margin-top: 5.3rem;
+  padding-top: 5.3rem;
+  background: #fffaf5;
+}
+.hero__box {
+  display: flex;
+}
+.hero__info {
+  width: 50%;
+}
+.hero__about {
+  color: #5e6085;
+  font-family: Sora;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  padding-top: 7.7rem;
+}
+.hero__title {
+  color: #000958;
+  font-family: Sora;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 6.2rem;
+  margin-top: 1.5rem;
+  width: 44.6rem;
+}
+.hero__desc {
+  width: 43.1rem;
+  color: #656689;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-top: 2.4rem;
+}
+.hero__tick {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: flex-start;
+  gap: 3.6rem 3.6rem;
+  margin-top: 5.4rem;
+}
+.hero__span {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #48496a;
+  font-size: 1.8rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.hero__span::before {
+  content: "";
+  display: inline-block;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 0.4rem;
+  background: #ff5d31;
+  box-shadow: 0 4px 15px -3px rgba(255, 93, 49, 0.69);
+  margin-right: 1rem;
+}
+.hero__span::after {
+  position: absolute;
+  content: url(../images/Vector\ \(1\).svg);
+  display: inline-block;
+  width: 1.1813rem;
+  height: 0.7875rem;
+  top: 2px;
+  left: 5px;
+}
+.hero__image {
+  position: relative;
+  display: inline-block;
+  margin-left: 20rem;
+  transform: translateY(-5.3rem);
+}
+.hero__man {
+  display: block;
+  width: 45rem;
+  height: 60.2rem;
+  position: relative;
+}
+.hero__image::after {
+  content: "";
+  display: block;
+  width: 51.7rem;
+  height: 33.6rem;
+  border-radius: 1.6rem;
+  background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
+  position: absolute;
+  bottom: 0px;
+  left: -32px;
+  z-index: -1;
+}
+
+.hero__exp {
+  align-items: center;
+  text-align: center;
+  display: block;
+  position: absolute;
+  width: 13.6rem;
+  height: 15.6rem;
+  border-radius: 1rem;
+  background: #5bd6e2;
+  box-shadow: -15px 26px 48px 0 rgba(85, 240, 255, 0.17);
+  top: 16.5rem;
+  left: -10.8rem;
+}
+.hero__exp::before {
+  display: block;
+  position: absolute;
+  content: url(../images/Union\ \(2\).svg);
+  width: 3.4935rem;
+  height: 3.7623rem;
+  top: -39px;
+  left: 82px;
+}
+.exp__title {
+  color: #fff;
+  text-align: center;
+  font-family: Sora;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+  margin-top: 3.1rem;
+}
+.exp__desc {
+  display: block;
+  margin-top: 1.4rem;
+  color: #c6f4f9;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  width: 8.3rem;
+  margin-left: 2.7rem;
+}
+/* End Section -1 */
+
+/* Section-2 */
+.question {
+  padding-top: 7.7rem;
+  background: #fffaf5;
+}
+.question__box {
+  display: flex;
+}
+.question__example {
+  margin-top: 1.6rem;
+}
+.question__example--img {
+  width: 45.8rem;
+  height: 50rem;
+  border-radius: 1.8rem;
+  border: 2px solid #fff;
+  background: linear-gradient(180deg, #c6e2fa 0%, #94c2ea 100%);
+  box-shadow: 0 17px 77px -8px rgba(190, 165, 139, 0.17);
+}
+.question__info {
+  margin-left: 12.7rem;
+}
+.question__info--title {
+  margin-top: 5.2rem;
+  color: #000958;
+  font-family: Sora;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 6.2rem;
+}
+.question__info--desc {
+  color: #656689;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  width: 51.1rem;
 }
